@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# OS metadata
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Logs
+*.log

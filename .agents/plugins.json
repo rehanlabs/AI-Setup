@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "path": "plugins/agent-skills"
+    },
+    {
+      "path": "plugins/ponytail"
+    }
+  ]
+}
