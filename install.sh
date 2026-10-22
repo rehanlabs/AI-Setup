@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Remote One-Liner Installer for Autonomous Engineering Pipeline (Bash)
-# Usage: curl -fsSL https://raw.githubusercontent.com/khanRehan-04/ai-setup/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/rehanlabs/AI-Setup/main/install.sh | bash
 
 set -e
 
-REPO_OWNER="${AI_SETUP_OWNER:-khanRehan-04}"
-REPO_NAME="${AI_SETUP_REPO:-ai-setup}"
+REPO_OWNER="${AI_SETUP_OWNER:-rehanlabs}"
+REPO_NAME="${AI_SETUP_REPO:-AI-Setup}"
 BRANCH="main"
 TARGET_DIR="$(pwd)"
 

@@ -9,8 +9,8 @@
 $ErrorActionPreference = "Stop"
 
 # Set default repo owner and name (can be overridden via env or args)
-$RepoOwner = if ($env:AI_SETUP_OWNER) { $env:AI_SETUP_OWNER } else { "khanRehan-04" }
-$RepoName  = if ($env:AI_SETUP_REPO)  { $env:AI_SETUP_REPO }  else { "ai-setup" }
+$RepoOwner = if ($env:AI_SETUP_OWNER) { $env:AI_SETUP_OWNER } else { "rehanlabs" }
+$RepoName  = if ($env:AI_SETUP_REPO)  { $env:AI_SETUP_REPO }  else { "AI-Setup" }
 $Branch    = "main"
 
 $TargetDir = (Get-Location).Path
