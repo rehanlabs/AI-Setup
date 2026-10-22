@@ -1,0 +1,15 @@
+---
+description: Autonomous Engineering Pipeline Orchestrator
+globs: *
+alwaysApply: true
+---
+
+# Autonomous Engineering Pipeline
+
+Follow the unified 6-stage engineering lifecycle defined in `AGENTS.md`:
+1. **Grounding:** Query knowledge graph (`graphify query`) & clarify ambiguities (`interview-me`).
+2. **Spec & Simplicity:** Spec first (`spec-driven-development`) & eliminate bloat (`ponytail`).
+3. **Plan:** Atomic task breakdown (`planning-and-task-breakdown`).
+4. **TDD:** Red-Green-Refactor (`test-driven-development`) & incremental delivery (`incremental-implementation`).
+5. **Review:** 5-axis quality review (`code-review-and-quality`) & security check (`security-and-hardening`).
+6. **Graph Sync:** Auto-update AST graph via `graphify update .`.

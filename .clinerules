@@ -1,0 +1,11 @@
+# Cline Rules - Autonomous Engineering Pipeline
+
+This workspace operates under the autonomous pipeline in `AGENTS.md`.
+
+For all tasks:
+- Ground in the knowledge graph (`graphify query`) and surface assumptions early.
+- Spec before code (`spec-driven-development`) and cut unnecessary complexity (`ponytail`).
+- Plan sequentially verifiable tasks (`planning-and-task-breakdown`).
+- Use Red-Green-Refactor loop (`test-driven-development`).
+- Conduct multi-axis code quality and security reviews (`code-review-and-quality`).
+- Update the AST knowledge graph with `graphify update .`.

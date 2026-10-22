@@ -1,0 +1,13 @@
+# Cursor Rules - Autonomous Engineering Pipeline
+
+This repository follows the multi-skill autonomous engineering pipeline defined in `AGENTS.md`.
+
+Whenever you receive a task, feature request, or bug fix:
+1. Ground decisions using the knowledge graph (`graphify query`) and surface assumptions.
+2. Enforce spec-first design (`spec-driven-development`) and strict YAGNI (`ponytail`).
+3. Break work down into atomic, sequentially verifiable tasks (`planning-and-task-breakdown`).
+4. Implement via strict Red-Green-Refactor (`test-driven-development`) in thin slices (`incremental-implementation`).
+5. Run multi-axis review (`code-review-and-quality`) and security audits (`security-and-hardening`).
+6. Update the knowledge graph via `graphify update .`.
+
+Always refer to `AGENTS.md` for full stage policies.

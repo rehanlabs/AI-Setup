@@ -1,0 +1,11 @@
+# Windsurf Rules - Autonomous Engineering Pipeline
+
+This project is governed by the engineering pipeline defined in `AGENTS.md`.
+
+Autonomous Lifecycle:
+1. Ground context using `graphify query` and clarify ambiguous requirements before writing code.
+2. Define minimal contracts (`spec-driven-development`) and apply strict YAGNI (`ponytail`).
+3. Break work down into atomic, testable tasks (`planning-and-task-breakdown`).
+4. Write failing tests first, implement minimal code, and keep tests passing (`test-driven-development`).
+5. Run multi-axis code review and security audits before completion (`code-review-and-quality`).
+6. Sync the knowledge graph after code changes (`graphify update .`).
